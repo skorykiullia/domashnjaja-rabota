@@ -1,0 +1,29 @@
+body {
+  padding: 50px 0;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav a {
+  font-size: 20px;
+  color: purple;
+  text-decoration: none;
+  position: relative;
+  padding: 20px;
+}
+
+nav a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+
+  background: red;
+  transition: 3s all;
+}
+nav a:hover::before {
+  width: 100%;
+}

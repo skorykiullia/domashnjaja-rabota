@@ -1,0 +1,43 @@
+li {
+  list-style: none;
+}
+ul li:first-child a {
+  color: green;
+}
+ul li:nth-child(even) {
+  font-size: 20px;/* 1,25 em; */
+}
+ul li:nth-child(odd) {
+  font-size: 18px;/*1,125 em;*/
+}
+a {
+  text-decor:ation: none;
+}
+ul li:nth-child(3n + 1) {
+  background-color: yellow;
+}
+li::before {
+  content: "-";
+}
+a:hover {
+  background-color: hotpink;
+  color: green;
+}
+body h3:first-child{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+div p{
+    color: red;
+}
+ body p:nth-child(7){ 
+    color: green;
+}
+/* .yellow{
+    color: yellow;
+} */
+body p:nth-child(8){
+    color: yellow;
+}
